@@ -1,6 +1,3 @@
-# Random iOS tricks and codes:
-
-
 
 ## Content hugging priority & Content compression resistance priority
 #### Content hugging priority
