@@ -7,3 +7,13 @@ Setting a larger value to this priority indicates that we don’t want the view 
 Setting a higher value means that we don’t want the view to shrink smaller than the intrinsic content size.
 
 [link to the blog](https://medium.com/@abhimuralidharan/ios-content-hugging-and-content-compression-resistance-priorities-476fb5828ef)
+
+
+## Cool way to declare constants
+
+```swift
+fileprivate extension String {
+    static let const01 = "Howdy!"
+    static let const02 = "Hello!"
+}
+```
