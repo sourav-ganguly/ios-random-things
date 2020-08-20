@@ -16,4 +16,6 @@ fileprivate extension String {
     static let const01 = "Howdy!"
     static let const02 = "Hello!"
 }
+
+nameLabel.text = .const01
 ```
