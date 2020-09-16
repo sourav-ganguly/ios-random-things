@@ -22,8 +22,9 @@ nameLabel.text = .const01
 ## map for optional
 ```swift
 extension Optional {
-func map<U>(transform: (Wrapped) -> U) -> U? {
-    guard let value = self else { return nil }
-    return transform(value) }
+    func map<U>(transform: (Wrapped) -> U) -> U? {
+        guard let value = self else { return nil }
+        return transform(value) 
+    }
 }
 ```
