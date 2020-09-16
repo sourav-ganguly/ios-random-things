@@ -32,11 +32,11 @@ extension Optional {
 ## flatmap for optional
 ```swift
 extension Optional {
-func flatMap<U>(transform: (Wrapped) -> U?) -> U? {
-    if let value = self, let transformed = transform(value) { 
-        return transformed
-    }
-    return nil
+    func flatMap<U>(transform: (Wrapped) -> U?) -> U? {
+        if let value = self, let transformed = transform(value) { 
+            return transformed
+        }
+        return nil
     } 
 }
 ```
