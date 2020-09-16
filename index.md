@@ -23,7 +23,7 @@ nameLabel.text = .const01
 ```swift
 extension Optional {
 func map<U>(transform: (Wrapped) -> U) -> U? {
-guard let value = self else { return nil }
-return transform(value) }
+    guard let value = self else { return nil }
+    return transform(value) }
 }
 ```
